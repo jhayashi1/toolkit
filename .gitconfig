@@ -1,0 +1,12 @@
+[alias]
+        a = add
+        c = commit
+        p = push
+    s  = status
+    st = status
+        chm = checkout main
+        chmp = "!git checkout main; git pull"
+        cmp = "!f() { git commit -m \"$1\" && git push origin; }; f"
+        commitp = "!f() { git commit -m \"$1\" && git push origin; }; f"
+        dlc = diff --cached HEAD^ 
+        pnv = push --no-verify%  

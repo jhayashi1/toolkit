@@ -13,7 +13,7 @@ cross-platform terminal prompt <br>
 ### [fzf](https://github.com/junegunn/fzf)
 cli fuzzy finder
 
-### [fzf-tab-completion](https://github.com/lincheney/fzf-tab-completion)
+### [fzf-tab](https://github.com/Aloxaf/fzf-tab)
 tab completion using fzf
 
 ### [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
@@ -29,3 +29,6 @@ java version management
 
 ### [pyenv](https://github.com/pyenv/pyenv)
 python version management
+
+## brew packages
+- [bat](https://github.com/sharkdp/bat)
