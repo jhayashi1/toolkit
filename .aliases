@@ -1,1 +1,2 @@
 alias ghpr='gh pr create --body-file .github/pull_request_template.md'
+alias cwd="pwd | pbcopy"
