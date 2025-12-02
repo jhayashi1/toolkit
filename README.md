@@ -30,8 +30,5 @@ java version management
 ### [pyenv](https://github.com/pyenv/pyenv)
 python version management
 
-## brew packages
-- [bat](https://github.com/sharkdp/bat)
-- [watch](https://formulae.brew.sh/formula/watch#default)
-- [saml2aws](https://github.com/Versent/saml2aws)
-- [gimme-aws-creds](https://github.com/Nike-Inc/gimme-aws-creds)
+### [nvm](https://www.nvmnode.com/)
+node version management

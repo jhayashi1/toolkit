@@ -1,2 +1,5 @@
 alias ghpr='gh pr create --body-file .github/pull_request_template.md'
 alias cwd="pwd | pbcopy"
+alias approve='gh pr review --approve' 
+alias ghdiff='gh pr diff' 
+alias chrome="open -a 'Google Chrome'"
