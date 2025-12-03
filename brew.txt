@@ -1,6 +1,7 @@
 awscli
 azure-cli
 bat
+boxes
 coreutils
 eza
 ffmpeg

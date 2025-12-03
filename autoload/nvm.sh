@@ -1,7 +1,11 @@
 source ~/.nvm/nvm.sh
 
-echo "\nDefault Node Version"
-nvm version
+if ! command -v "boxes" >/dev/null 2>&1; then
+  echo "\nDefault Node Version:"
+  echo -e "\e[32m$(nvm version)\e[0m"
+else
+  echo -e "Default Node Version:\n\e[32m$(nvm version)\e[0m" | boxes -d ansi-double
+fi
 echo ""
 
 # nvm auto detect
