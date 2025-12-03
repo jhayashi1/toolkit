@@ -1,3 +1,6 @@
+autoload bashcompinit && bashcompinit
+autoload -Uz compinit && compinit
+
 source ~/.aliases
 
 for file in ~/autoload/*; do

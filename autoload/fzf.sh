@@ -1,7 +1,5 @@
 # fzf and fzf tab completion
 source <(fzf --zsh)
-autoload bashcompinit && bashcompinit
-autoload -Uz compinit && compinit
 
 source /opt/fzf-tab/fzf-tab.plugin.zsh
 # disable sort when completing `git checkout`
