@@ -1,0 +1,68 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "github-copilot/claude-opus-4.6:high",
+  "plugin": [],
+  "permission": {
+    "external_directory": {
+      "~/.copilot/**": "allow",
+      "~/.config/opencode/**": "allow",
+      "/tmp/**": "allow"
+    }
+  },
+  "agent": {
+    "explore": {
+      "model": "github-copilot/claude-sonnet-4.6"
+    }
+  },
+  "provider": {
+    "github-copilot": {
+      "models": {
+        "claude-sonnet-4.6": {
+          "options": {
+            "thinking": {
+              "type": "enabled",
+              "budgetTokens": 16000
+            }
+          }
+        }
+      }
+    }
+  },
+  "mcp": {
+    "websearch": {
+      "type": "remote",
+      "url": "https://mcp.exa.ai/mcp?tools=web_search_exa",
+      "enabled": true,
+      "oauth": false
+    },
+    "context7": {
+      "type": "remote",
+      "url": "https://mcp.context7.com/mcp",
+      "enabled": true,
+      "oauth": false
+    },
+    "grep_app": {
+      "type": "remote",
+      "url": "https://mcp.grep.app",
+      "enabled": true,
+      "oauth": false
+    },
+    "chrome-devtools": {
+      "type": "local",
+      "command": [
+        "bunx",
+        "chrome-devtools-mcp@latest",
+        "--no-usage-statistics"
+      ],
+      "enabled": true
+    },
+    "playwright": {
+      "type": "local",
+      "command": [
+        "bunx",
+        "@playwright/mcp@latest"
+      ],
+      "enabled": true
+    }
+  }
+}
