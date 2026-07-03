@@ -37,3 +37,21 @@
 - **Simplicity First**: Make every change as simple as possible. Impact minimal code.
 - **No Laziness**: Find root causes. No temporary fixes. Senior developer standards.
 - **Minimal Impact**: Changes should only touch what's necessary. Avoid introducing bugs.
+
+## Code Style
+- Only create an abstraction if it's actually needed
+- Prefer clear function/variable names over inline comments
+- Avoid helper functions when a simple inline expression would suffice
+- Use knip to remove unused code if making large changes
+- The gh CLI is installed, use it
+- Don't use emojis
+
+## React
+- React Compiler is enabled, skip manual useMemo/useCallback
+- Avoid massive JSX blocks and compose smaller components
+- Colocate code that changes together
+- Avoid useEffect unless absolutely needed
+
+## TypeScript
+- Don't unnecessarily add try/catch
+- Don't cast to any
