@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "chrome-devtools": {
+      "command": "C:\\Users\\JaredNew\\.bun\\bin\\chrome-devtools-mcp.exe",
+      "args": ["--no-usage-statistics"]
+    },
+    "context7": {
+      "type": "sse",
+      "url": "https://mcp.context7.com/mcp"
+    },
+    "github": {
+      "type": "sse",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer REPLACE_WITH_YOUR_GITHUB_PAT"
+      }
+    },
+    "websearch": {
+      "type": "sse",
+      "url": "https://mcp.exa.ai/mcp?tools=web_search_exa"
+    },
+    "betterauth": {
+      "type": "sse",
+      "url": "https://mcp.better-auth.com/mcp"
+    }
+  }
+}
